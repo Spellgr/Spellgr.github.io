@@ -5,12 +5,17 @@
 <head>
     <title>Dry Oar Boating Home</title>
     <style>
+        #main-menu {
+            color: #f00;
+        }
+        
         p {
             font-family: sans-serif;
         }
         
         nav {
             background-color: deepskyblue;
+            padding-left: 20px;
         }
         
         h1 {
@@ -21,7 +26,7 @@
             text-emphasis-color: crimson;
         }
         
-        p <a href="#hello-world"> Hello world<a/></p> p {
+        p {
             color: #FF7800;
             text-align: center;
             margin-left: auto;
@@ -37,65 +42,155 @@
             text-decoration: underline;
             text-align: center;
         }
+        
+        body {
+            max-width: 940px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        
+        .content-img {
+            width: 420px;
+            margin-left: 10px;
+            margin-right: 10px;
+        }
+        
+        #top-row {
+            display: flex;
+            align-items: center;
+        }
+        
+        #middle-row {
+            display: flex;
+            align-items: center;
+        }
+        
+        .content {
+            margin-left: 10px;
+            margin-right: 10px;
+        }
+        
+        footer {
+            display: flex;
+            align-items: center;
+        }
+        
+        .facebook {
+            margin-left: auto;
+            margin-right: auto;
+        }
+        
+        .google {
+            margin-left: auto;
+            margin-right: auto;
+        }
+        
+        .youtube {
+            margin-left: auto;
+            margin-right: auto;
+        }
+        
+        .home {
+            margin-left: auto;
+            margin-right: auto;
+            font-size: 1.2em;
+        }
+        
+        .rivers {
+            margin-left: 60px;
+            margin-right: auto;
+            margin-bottom: auto;
+            font-size: 1.2em;
+        }
+        
+        .faq {
+            margin-left: 120px;
+            margin-right: auto;
+            font-size: 1.2em;
+        }
+        
+        .rates-dates {
+            margin-left: 180px;
+            margin-right: auto;
+            font-size: 1.2em;
+        }
+        
+        .contact-us {
+            margin-left: 280px;
+            margin-right: auto;
+            font-size: 1.2em;
+        }
     </style>
 
-    <div>
-        id="website-all"; width: 980px;
-    </div>
-   
-    top-row {
-        display: flex;
-    }
-    
-    img {
-    maxwidth; 100%;
-    }
-
-    <body>
-
-        <nav>
-            <img src="http://brothert.net/dryoar/images/dryoarlogo.png" alt="Rafting">
-            <fullwidth>
-            
-                <ul>
-
-
-                    <li>Rivers color: rgb(red)</li>
-                    <li>FAQ color: rgb(red)</li>
-                    <li>Blog color: rgb(red)</li>
-                    <li>Rates/Dates color: rgb(red)</li>
-                    <li>Contact Us color: rgb(red)</li>
-                </ul>
-            </fullwidth>
-        </nav>
-
-
-        <section>
-            <section id="top-row">
-                <p id="hello-world">Hello World!</p>
-                <strong>"Rafting"</strong>
-                <p>We believe that there is nothing like a river trip for relaxing. That is why we subscribe to the dry oar philosophy of boating. Keeping your oars dry for us means taking time to look around and notice the beauty that surrounds the rivers we love.</p>
-                <img src="http://brothert.net/dryoar/images/river-wide2.JPG" alt="River">
-                <img src="http://brothert.net/dryoar/images/snake-rapid2.jpg" alt="Raft">
-
-            </section>
-        </section>
-
-        <section>
-            <strong>"Come and Relax"</strong>
-            <h1 class="paragraph-2">We invite you to come relax with us on one of the amazing rivers we visit. Check out our trips and let us know which one best suits you. We're waiting to hear from you!
-        </h1>
-            <p>&copy; 2016 Dry Oar
-                <p>
-                    <p>&copy; 2016 Dry Oar || Nathaniel Spell
-                        <li><a href="https://byui-cit.github.io/wdd100/images/icons/color/facebook.png">Home</a></li>
-                        <li><a href="https://byui-cit.github.io/wdd100/images/icons/color/googleplus.png">Home</a></li>
-                        <li><a href="https://byui-cit.github.io/wdd100/images/icons/color/youtube.png">Home</a></li>
-                        <p>
-
-        </section>
-
-    </body>
 </head>
+
+<body>
+
+    <header>
+        <img src="http://brothert.net/dryoar/images/dryoarlogo.png" alt="Rafting">
+        <nav>
+
+            <ul style="list-style-type:none" id="main-menu">
+                <li class="home"><a href="#">Home</a></li>
+                <li class="rivers"><a href="#">Rivers</a></li>
+                <li class="faq"><a href="#">FAQ</a></li>
+                <li class="rates-dates"><a href="#">Rates/Dates</a></li>
+                <li class="contact-us"><a href="#">Contact Us</a></li>
+            </ul>
+
+        </nav>
+    </header>
+    <img src="http://brothert.net/dryoar/images/river-wide2.JPG" alt="River">
+
+
+    <section id="top-row">
+        <div class="content">
+
+
+            <h1>"Rafting"</h1>
+            <p>We believe that there is nothing like a river trip for relaxing. That is why we subscribe to the dry oar philosophy of boating. Keeping your oars dry for us means taking time to look around and notice the beauty that surrounds the rivers we love.</p>
+        </div>
+
+
+        <img class="content-img" src="http://brothert.net/dryoar/images/snake-rapid2.jpg" alt="Raft">
+
+    </section>
+
+
+    <section id="middle-row">
+        <img class="content-img" src="http://brothert.net/dryoar/images/littlecolorado.jpg">
+
+        <div class="content">
+            <h1>We run Whitewater for the rush</h1>
+            <p>Whitewater rafting is the best</p>
+        </div>
+    </section>
+
+
+
+    <section class="content">
+
+        <h1>"Come and Relax"</h1>
+        <p class="paragraph-2">We invite you to come relax with us on one of the amazing rivers we visit. Check out our trips and let us know which one best suits you. We're waiting to hear from you!
+        </p>
+
+    </section>
+    <footer>
+
+
+        <p>&copy; 2016 Dry Oar || Nathaniel Spell
+            <li class="facebook">
+                <a href="http://www.facebook.com"><img src="https://byui-cit.github.io/wdd100/images/icons/color/facebook.png" alt="facebook-logo"></a>
+            </li>
+            <li class="google"><a href="https://byui-cit.github.io/wdd100/images/icons/color/googleplus.png">Home</a></li>
+            <li class="youtube"><a href="https://byui-cit.github.io/wdd100/images/icons/color/youtube.png">Home</a></li>
+        </p>
+
+    </footer>
+
+
+
+</body>
+
 
 </html>
