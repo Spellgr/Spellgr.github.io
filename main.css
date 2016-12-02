@@ -7,9 +7,11 @@ nav {
     padding-left: 20px;
 }
 
-.logo {
+.logo-img {
     float: left;
-
+    display: flex;
+    
+    
     }
 
 nav > ul {
