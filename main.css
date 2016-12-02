@@ -1,5 +1,4 @@
-<link rel="stylesheet" type="text/css" href="main.css" >        
-        #main-menu {
+#main-menu {
             color: #f00;
         }
         
@@ -9,14 +8,33 @@
         
         nav {
             background-color: deepskyblue;
+            padding-left: 20px;
         }
         
+        nav > ul {
+            list-style-type: none;
+            display: flex;
+            flex-flow: wrap;
+            line-height: 3em;
+
+    
+        }
+
+        nav li {
+            flex: 1 0 6.5em;
+    
+        }
+        nav a {
+            padding: .85em;
+
+
+        }
         h1 {
             font-family: sans-serif;
         }
         
         nav {
-            text-emphasis-color: crimson;
+            text-emphasis-color: black;
         }
         
         p {
@@ -68,17 +86,68 @@
             align-items: center;
         }
         
+        #bottom-nav {
+            display: flex;
+           
+        
+            
+        }
+        #bottom-nav li {
+             flex-flow: row wrap;
+            justify-content: space-between;
+          
+            
+        }
+        
         .facebook {
-            margin-left: auto;
-            margin-right: auto;
+            
+            display: flex;
+            flex-flow: row wrap;
+            justify-content: space-between;
+        
         }
         
         .google {
-            margin-left: auto;
-            margin-right: auto;
+           
+            display: flex;
+            flex-flow: row wrap;
+            justify-content: space-between;
+        
         }
         
         .youtube {
-            margin-left: auto;
-            margin-right: auto;
+            
+            display: flex;
+            flex-flow: row wrap;
+            justify-content: space-between;
+        
         }
+        
+        #main-menu { 
+            font-size: 1.2em;
+            display: flex;
+            flex-flow: row wrap;
+            justify-content: space-between;
+        
+        }
+        
+        .home {
+         
+        }
+        
+        .rivers {
+         
+        }
+        
+        .faq {
+           
+        }
+        
+        .rates-dates {
+           
+        }
+        
+        .contact-us {
+          
+        }
+        
