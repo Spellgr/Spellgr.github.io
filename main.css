@@ -1,153 +1,126 @@
 #main-menu {
-            color: #f00;
-        }
-        
-        p {
-            font-family: sans-serif;
-        }
-        
-        nav {
-            background-color: deepskyblue;
-            padding-left: 20px;
-        }
-        
-        nav > ul {
-            list-style-type: none;
-            display: flex;
-            flex-flow: wrap;
-            line-height: 3em;
+    color: #f00;
+}
 
-    
-        }
+nav {
+    background-color: deepskyblue;
+    padding-left: 20px;
+}
 
-        nav li {
-            flex: 1 0 6.5em;
-    
-        }
-        nav a {
-            padding: .85em;
+nav > ul {
+    list-style-type: none;
+    display: flex;
+    flex-flow: wrap;
+    line-height: 3em;
+}
 
+nav li {
+    flex: 1 0 6.5em;
+}
 
-        }
-        h1 {
-            font-family: sans-serif;
-        }
-        
-        nav {
-            text-emphasis-color: black;
-        }
-        
-        p {
-            color: #FF7800;
-            text-align: center;
-            margin-left: auto;
-        }
-        
-        h1 {
-            color: #FFCBOO;
-            text-align: center;
-        }
-        
-        .Relax {
-            background-color: #124EC5;
-            text-decoration: underline;
-            text-align: center;
-        }
-        
-        body {
-            max-width: 940px;
-            margin-left: auto;
-            margin-right: auto;
-        }
-        
-        .content-img {
-            width: 420px;
-            margin-left: 10px;
-            margin-right: 10px;
-        }
-        
-        #top-row {
-            display: flex;
-            align-items: center;
-        }
-        
-        #middle-row {
-            display: flex;
-            align-items: center;
-        }
-        
-        .content {
-            margin-left: 10px;
-            margin-right: 10px;
-        }
-        
-        footer {
-            display: flex;
-            align-items: center;
-        }
-        
-        #bottom-nav {
-            display: flex;
-           
-        
-            
-        }
-        #bottom-nav li {
-             flex-flow: row wrap;
-            justify-content: space-between;
-          
-            
-        }
-        
-        .facebook {
-            
-            display: flex;
-            flex-flow: row wrap;
-            justify-content: space-between;
-        
-        }
-        
-        .google {
-           
-            display: flex;
-            flex-flow: row wrap;
-            justify-content: space-between;
-        
-        }
-        
-        .youtube {
-            
-            display: flex;
-            flex-flow: row wrap;
-            justify-content: space-between;
-        
-        }
-        
-        #main-menu { 
-            font-size: 1.2em;
-            display: flex;
-            flex-flow: row wrap;
-            justify-content: space-between;
-        
-        }
-        
-        .home {
-         
-        }
-        
-        .rivers {
-         
-        }
-        
-        .faq {
-           
-        }
-        
-        .rates-dates {
-           
-        }
-        
-        .contact-us {
-          
-        }
-        
+nav a {
+    padding: .85em;
+}
+
+h1 {
+    font-family: sans-serif;
+    margin: 2em;
+}
+
+nav {
+    text-emphasis-color: black;
+}
+
+p {
+    color: black;
+    text-align: center;
+    margin-left: auto;
+    font-family: sans-serif;
+}
+
+h1 {
+    color: #FFCBOO;
+    text-align: center;
+}
+
+.Relax {
+    background-color: #124EC5;
+    text-decoration: underline;
+    text-align: center;
+}
+
+body {
+    max-width: 940px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.content-img {
+    width: 420px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#top-row {
+    display: flex;
+    align-items: center;
+}
+
+#middle-row {
+    display: flex;
+    align-items: center;
+}
+
+.content {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+footer {
+    display: flex;
+    align-items: center;
+}
+
+#bottom-nav {
+    display: flex;
+}
+
+#bottom-nav li {
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+
+.facebook {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+
+.google {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+
+.youtube {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+
+#main-menu {
+    font-size: 1.2em;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+
+.home {}
+
+.rivers {}
+
+.faq {}
+
+.rates-dates {}
+
+.contact-us {}
