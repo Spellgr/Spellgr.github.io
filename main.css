@@ -10,9 +10,9 @@ nav {
 .logo-img {
     float: left;
     display: flex;
-    
-    
-    }
+}
+
+.wide-img {}
 
 nav > ul {
     list-style-type: none;
@@ -47,7 +47,10 @@ p {
 
 h1 {
     color: #FFCBOO;
-    text-align: center;
+    text-align: left;
+    
+
+    
 }
 
 .Relax {
@@ -71,11 +74,13 @@ body {
 #top-row {
     display: flex;
     align-items: center;
+    padding: 30px 30px 40px 60px;
 }
 
 #middle-row {
     display: flex;
     align-items: center;
+    padding: 50px 30px 50px 80px;
 }
 
 .content {
@@ -120,6 +125,9 @@ footer {
     display: flex;
     flex-flow: row wrap;
     justify-content: space-between;
+    background-color: deepskyblue;
+    margin-top: inherit;
+    
 }
 
 .home {}
