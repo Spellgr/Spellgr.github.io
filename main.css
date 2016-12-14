@@ -3,13 +3,16 @@
 }
 
 nav {
-    background-color: deepskyblue;
-    padding-left: 20px;
+    
+    margin: -5.8em 0 0 0;
+    
+    
 }
 
 .logo-img {
-    float: left;
+    
     display: flex;
+    
 }
 
 .wide-img {}
@@ -18,7 +21,9 @@ nav > ul {
     list-style-type: none;
     display: flex;
     flex-flow: wrap;
-    line-height: 3em;
+    line-height: 4.5em;
+    margin: 0;
+    margin-left: 5.5em;
 }
 
 nav li {
@@ -46,10 +51,8 @@ p {
 }
 
 h1 {
-    color: #FFCBOO;
-    text-align: left;
     
-
+    text-align: center;
     
 }
 
@@ -63,6 +66,7 @@ body {
     max-width: 940px;
     margin-left: auto;
     margin-right: auto;
+    background-color: lightblue;
 }
 
 .content-img {
@@ -75,31 +79,42 @@ body {
     display: flex;
     align-items: center;
     padding: 30px 30px 40px 60px;
+    
 }
 
 #middle-row {
     display: flex;
     align-items: center;
-    padding: 50px 30px 50px 80px;
+    
+    
+    
 }
 
 .content {
     margin-left: 10px;
     margin-right: 10px;
+    align-content: center;
 }
 
 footer {
     display: flex;
     align-items: center;
+     flex-flow: row wrap;
+    justify-content: space-between;
 }
 
 #bottom-nav {
     display: flex;
+    list-style-type: none;
+    font-size: 1.2em;
+    
+   
 }
 
 #bottom-nav li {
-    flex-flow: row wrap;
-    justify-content: space-between;
+    
+    
+    
 }
 
 .facebook {
@@ -125,8 +140,9 @@ footer {
     display: flex;
     flex-flow: row wrap;
     justify-content: space-between;
-    background-color: deepskyblue;
+    background-color: lightgray;
     margin-top: inherit;
+    
     
 }
 
